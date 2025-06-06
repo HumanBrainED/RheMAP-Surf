@@ -31,7 +31,7 @@ This section presents the mean curvature patterns projected onto the spherical s
 
 ### Left Hemisphere
 
-| Target → \ Moving ↓ | NMTv2.0-sym | NMTv2.0-asym | D99 | MEBRAINS | YRK |
+| Target → \ Moving ↓ | NMTv2.0-sym | NMTv2.0-asym | &nbsp;&nbsp;&nbsp;&nbsp;D99&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;MEBRAINS&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;YRK&nbsp;&nbsp;&nbsp;&nbsp; |
 |---------------------|-------------|--------------|-----|----------|-----|
 | **NMTv2.0-sym** | ![](figures/msm_mean_curv/sphere/lh.NMTv2.0-sym_to_NMTv2.0-sym.png) | ![](figures/msm_mean_curv/sphere/lh.NMTv2.0-sym_to_NMTv2.0-asym.png) | ![](figures/msm_mean_curv/sphere/lh.NMTv2.0-sym_to_D99.png) | ![](figures/msm_mean_curv/sphere/lh.NMTv2.0-sym_to_MEBRAINS.png) | ![](figures/msm_mean_curv/sphere/lh.NMTv2.0-sym_to_YRK.png) |
 | **NMTv2.0-asym** | ![](figures/msm_mean_curv/sphere/lh.NMTv2.0-asym_to_NMTv2.0-sym.png) | ![](figures/msm_mean_curv/sphere/lh.NMTv2.0-asym_to_NMTv2.0-asym.png) | ![](figures/msm_mean_curv/sphere/lh.NMTv2.0-asym_to_D99.png) | ![](figures/msm_mean_curv/sphere/lh.NMTv2.0-asym_to_MEBRAINS.png) | ![](figures/msm_mean_curv/sphere/lh.NMTv2.0-asym_to_YRK.png) |
@@ -41,7 +41,7 @@ This section presents the mean curvature patterns projected onto the spherical s
 
 ### Right Hemisphere
 
-| Target → \ Moving ↓ | NMTv2.0-sym | NMTv2.0-asym | D99 | MEBRAINS | YRK |
+| Target → \ Moving ↓ | NMTv2.0-sym | NMTv2.0-asym | &nbsp;&nbsp;&nbsp;&nbsp;D99&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;MEBRAINS&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;YRK&nbsp;&nbsp;&nbsp;&nbsp; |
 |---------------------|-------------|--------------|-----|----------|-----|
 | **NMTv2.0-sym** | ![](figures/msm_mean_curv/sphere/rh.NMTv2.0-sym_to_NMTv2.0-sym.png) | ![](figures/msm_mean_curv/sphere/rh.NMTv2.0-sym_to_NMTv2.0-asym.png) | ![](figures/msm_mean_curv/sphere/rh.NMTv2.0-sym_to_D99.png) | ![](figures/msm_mean_curv/sphere/rh.NMTv2.0-sym_to_MEBRAINS.png) | ![](figures/msm_mean_curv/sphere/rh.NMTv2.0-sym_to_YRK.png) |
 | **NMTv2.0-asym** | ![](figures/msm_mean_curv/sphere/rh.NMTv2.0-asym_to_NMTv2.0-sym.png) | ![](figures/msm_mean_curv/sphere/rh.NMTv2.0-asym_to_NMTv2.0-asym.png) | ![](figures/msm_mean_curv/sphere/rh.NMTv2.0-asym_to_D99.png) | ![](figures/msm_mean_curv/sphere/rh.NMTv2.0-asym_to_MEBRAINS.png) | ![](figures/msm_mean_curv/sphere/rh.NMTv2.0-asym_to_YRK.png) |
@@ -60,7 +60,7 @@ This section presents the mean curvature patterns projected onto the white matte
 
 ### Left Hemisphere
 
-| Target → \ Moving ↓ | NMTv2.0-sym | NMTv2.0-asym | D99 | MEBRAINS | YRK |
+| Target → \ Moving ↓ | NMTv2.0-sym | NMTv2.0-asym | &nbsp;&nbsp;&nbsp;&nbsp;D99&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;MEBRAINS&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;YRK&nbsp;&nbsp;&nbsp;&nbsp; |
 |---------------------|-------------|--------------|-----|----------|-----|
 | **NMTv2.0-sym** | ![](figures/msm_mean_curv/surface/lh.NMTv2.0-sym_to_NMTv2.0-sym.png) | ![](figures/msm_mean_curv/surface/lh.NMTv2.0-sym_to_NMTv2.0-asym.png) | ![](figures/msm_mean_curv/surface/lh.NMTv2.0-sym_to_D99.png) | ![](figures/msm_mean_curv/surface/lh.NMTv2.0-sym_to_MEBRAINS.png) | ![](figures/msm_mean_curv/surface/lh.NMTv2.0-sym_to_YRK.png) |
 | **NMTv2.0-asym** | ![](figures/msm_mean_curv/surface/lh.NMTv2.0-asym_to_NMTv2.0-sym.png) | ![](figures/msm_mean_curv/surface/lh.NMTv2.0-asym_to_NMTv2.0-asym.png) | ![](figures/msm_mean_curv/surface/lh.NMTv2.0-asym_to_D99.png) | ![](figures/msm_mean_curv/surface/lh.NMTv2.0-asym_to_MEBRAINS.png) | ![](figures/msm_mean_curv/surface/lh.NMTv2.0-asym_to_YRK.png) |
@@ -70,7 +70,7 @@ This section presents the mean curvature patterns projected onto the white matte
 
 ### Right Hemisphere
 
-| Target → \ Moving ↓ | NMTv2.0-sym | NMTv2.0-asym | D99 | MEBRAINS | YRK |
+| Target → \ Moving ↓ | NMTv2.0-sym | NMTv2.0-asym | &nbsp;&nbsp;&nbsp;&nbsp;D99&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;MEBRAINS&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;YRK&nbsp;&nbsp;&nbsp;&nbsp; |
 |---------------------|-------------|--------------|-----|----------|-----|
 | **NMTv2.0-sym** | ![](figures/msm_mean_curv/surface/rh.NMTv2.0-sym_to_NMTv2.0-sym.png) | ![](figures/msm_mean_curv/surface/rh.NMTv2.0-sym_to_NMTv2.0-asym.png) | ![](figures/msm_mean_curv/surface/rh.NMTv2.0-sym_to_D99.png) | ![](figures/msm_mean_curv/surface/rh.NMTv2.0-sym_to_MEBRAINS.png) | ![](figures/msm_mean_curv/surface/rh.NMTv2.0-sym_to_YRK.png) |
 | **NMTv2.0-asym** | ![](figures/msm_mean_curv/surface/rh.NMTv2.0-asym_to_NMTv2.0-sym.png) | ![](figures/msm_mean_curv/surface/rh.NMTv2.0-asym_to_NMTv2.0-asym.png) | ![](figures/msm_mean_curv/surface/rh.NMTv2.0-asym_to_D99.png) | ![](figures/msm_mean_curv/surface/rh.NMTv2.0-asym_to_MEBRAINS.png) | ![](figures/msm_mean_curv/surface/rh.NMTv2.0-asym_to_YRK.png) |
