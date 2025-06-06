@@ -31,7 +31,7 @@ This section presents the mean curvature patterns projected onto the spherical s
 
 ### Left Hemisphere
 
-| Target → \ Moving ↓ | NMTv2.0-sym | NMTv2.0-asym | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;D99&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | MEBRAINS | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;YRK&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
+| Target → \ Moving ↓ | NMTv2.0-sym | NMTv2.0-asym | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;D99&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | MEBRAINS | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;YRK&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
 |---------------------|-------------|--------------|-----|----------|-----|
 | **NMTv2.0-sym** | ![](figures/msm_mean_curv/sphere/lh.NMTv2.0-sym_to_NMTv2.0-sym.png) | ![](figures/msm_mean_curv/sphere/lh.NMTv2.0-sym_to_NMTv2.0-asym.png) | ![](figures/msm_mean_curv/sphere/lh.NMTv2.0-sym_to_D99.png) | ![](figures/msm_mean_curv/sphere/lh.NMTv2.0-sym_to_MEBRAINS.png) | ![](figures/msm_mean_curv/sphere/lh.NMTv2.0-sym_to_YRK.png) |
 | **NMTv2.0-asym** | ![](figures/msm_mean_curv/sphere/lh.NMTv2.0-asym_to_NMTv2.0-sym.png) | ![](figures/msm_mean_curv/sphere/lh.NMTv2.0-asym_to_NMTv2.0-asym.png) | ![](figures/msm_mean_curv/sphere/lh.NMTv2.0-asym_to_D99.png) | ![](figures/msm_mean_curv/sphere/lh.NMTv2.0-asym_to_MEBRAINS.png) | ![](figures/msm_mean_curv/sphere/lh.NMTv2.0-asym_to_YRK.png) |
