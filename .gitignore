@@ -1,0 +1,71 @@
+# ==========================
+# macOS system files
+# ==========================
+.DS_Store                # Finder metadata file (position, view settings)
+.AppleDouble             # Resource forks on non-HFS systems
+.LSOverride              # Finder window preferences
+
+# ==========================
+# Python files
+# ==========================
+__pycache__/             # Python bytecode cache directory
+*.py[cod]                # Compiled Python files (.pyc, .pyo)
+*.so                     # Compiled C extensions
+
+# ==========================
+# R language files
+# ==========================
+.Rhistory                # R session history
+.RData                   # R workspace file
+.Rproj.user/             # RStudio project user-specific files
+.Ruserdata               # RStudio user settings
+
+# ==========================
+# Jupyter Notebooks
+# ==========================
+.ipynb_checkpoints/      # Notebook autosave checkpoints
+
+# ==========================
+# Common temporary/log files
+# ==========================
+*.log                    # Log files
+*.tmp                    # Temporary files
+*.bak                    # Backup files
+*.swp                    # Vim swap files
+*.~                      # Editor backups (e.g., Emacs)
+
+# ==========================
+# Configuration and secrets
+# ==========================
+.env                     # Environment variable definitions (may contain secrets)
+*.key                    # Private key files
+*.pem                    # SSL certificates
+
+# ==========================
+# Neuroimaging specific
+# ==========================
+# *.nii                    # Raw NIfTI files (if not essential to version control)
+# *.nii.gz                 # Compressed NIfTI files
+# *.gii                    # GIFTI surface files
+# *.mgz                    # FreeSurfer file format
+# *.mgh                    # FreeSurfer file format
+# *.surf.gii               # Workbench surface data
+# *.label.gii              # Workbench label data
+# *.shape.gii              # Workbench shape data
+# *.func.gii               # Workbench functional data
+# *.dscalar.nii            # CIFTI dense scalar data
+# *.dtseries.nii           # CIFTI dense time series
+
+# ==========================
+# VS Code / JetBrains IDEs
+# ==========================
+.vscode/                 # Visual Studio Code settings
+.idea/                   # PyCharm or other JetBrains IDEs
+
+# ==========================
+# OS trash or auto-recovery
+# ==========================
+*~                       # Backup files
+.Trashes                 # macOS Trash info
+ehthumbs.db              # Windows thumbnail cache
+Thumbs.db                # Windows thumbnail cache
