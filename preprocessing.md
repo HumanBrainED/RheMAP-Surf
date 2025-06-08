@@ -78,7 +78,7 @@ The figures below illustrate the mean curvature patterns computed on the native 
 
 ##### Left Hemisphere
 
-| Template       | Surface Only | With Mean Curvature |
+| Template       | <pre style="text-align:center;">    Surface Only    </pre> | <pre style="text-align:center;"> With Mean Curvature</pre> |
 |----------------|--------------|---------------------|
 | NMTv2.0-sym    | ![](figures/surf_curvature_maps/lh.NMTv2.0-sym.no_metric.png) | ![](figures/surf_curvature_maps/lh.NMTv2.0-sym.with_mean_curv.png) |
 | NMTv2.0-asym   | ![](figures/surf_curvature_maps/lh.NMTv2.0-asym.no_metric.png) | ![](figures/surf_curvature_maps/lh.NMTv2.0-asym.with_mean_curv.png) |
@@ -88,7 +88,7 @@ The figures below illustrate the mean curvature patterns computed on the native 
 
 ##### Right Hemisphere
 
-| Template       | Surface Only | With Mean Curvature |
+| Template       | <pre style="text-align:center;">    Surface Only    </pre> | <pre style="text-align:center;"> With Mean Curvature</pre> |
 |----------------|--------------|---------------------|
 | NMTv2.0-sym    | ![](figures/surf_curvature_maps/rh.NMTv2.0-sym.no_metric.png) | ![](figures/surf_curvature_maps/rh.NMTv2.0-sym.with_mean_curv.png) |
 | NMTv2.0-asym   | ![](figures/surf_curvature_maps/rh.NMTv2.0-asym.no_metric.png) | ![](figures/surf_curvature_maps/rh.NMTv2.0-asym.with_mean_curv.png) |
@@ -147,13 +147,13 @@ Due to inconsistent definitions of the medial wall (MW) across macaque brain tem
 
 To evaluate the consistency of the harmonized MW masks across the five templates, we projected the final binary masks onto the white matter surfaces of each template (shown in YRK space). Each hemisphere is shown separately, using a fixed color scale ranging from 0 (MW region) to 1 (cortical region).
 
-| Template       | Left Hemisphere | Right Hemisphere |  
-|----------------|-----------------|------------------|  
-| NMTv2.0-sym    | ![](figures/surf_mwmask_maps/lh.NMTv2.0-sym.MWmask.png)  | ![](figures/surf_mwmask_maps/rh.NMTv2.0-sym.MWmask.png)  |  
-| NMTv2.0-asym   | ![](figures/surf_mwmask_maps/lh.NMTv2.0-asym.MWmask.png) | ![](figures/surf_mwmask_maps/rh.NMTv2.0-asym.MWmask.png) |  
-| D99            | ![](figures/surf_mwmask_maps/lh.D99.MWmask.png)          | ![](figures/surf_mwmask_maps/rh.D99.MWmask.png)          |  
-| MEBRAINS       | ![](figures/surf_mwmask_maps/lh.MEBRAINS.MWmask.png)     | ![](figures/surf_mwmask_maps/rh.MEBRAINS.MWmask.png)     |  
-| YRK            | ![](figures/surf_mwmask_maps/lh.YRK.MWmask.png)          | ![](figures/surf_mwmask_maps/rh.YRK.MWmask.png)          |  
+| Template       | Left Hemisphere | Right Hemisphere |
+|----------------|-----------------|------------------|
+| NMTv2.0-sym    | ![](figures/surf_mwmask_maps/lh.NMTv2.0-sym.MWmask.png)  | ![](figures/surf_mwmask_maps/rh.NMTv2.0-sym.MWmask.png)  |
+| NMTv2.0-asym   | ![](figures/surf_mwmask_maps/lh.NMTv2.0-asym.MWmask.png) | ![](figures/surf_mwmask_maps/rh.NMTv2.0-asym.MWmask.png) |
+| D99            | ![](figures/surf_mwmask_maps/lh.D99.MWmask.png)          | ![](figures/surf_mwmask_maps/rh.D99.MWmask.png)          |
+| MEBRAINS       | ![](figures/surf_mwmask_maps/lh.MEBRAINS.MWmask.png)     | ![](figures/surf_mwmask_maps/rh.MEBRAINS.MWmask.png)     |
+| YRK            | ![](figures/surf_mwmask_maps/lh.YRK.MWmask.png)          | ![](figures/surf_mwmask_maps/rh.YRK.MWmask.png)          |
 
 These harmonized MW masks are used in downstream workflows as weighting masks for MSM-based surface alignment, where MW regions are assigned a weight of 0 and cortical regions a weight of 1. This ensures that variability in MW definitions does not bias the alignment process. They are also used to exclude MW regions from evaluation metrics when assessing surface alignment quality across templates.
 
