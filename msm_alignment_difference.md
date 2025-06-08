@@ -23,7 +23,7 @@ To compare the two MSM alignment methods, we visualized vertex-wise 3D distances
 
 ### Left Hemisphere
 
-| Target → \ Moving ↓ | NMTv2.0-sym | NMTv2.0-asym | D99 | MEBRAINS | YRK |
+| Target → \ Moving ↓ | <pre style="text-align:center;"> NMTv2.0-sym </pre> | <pre style="text-align:center;"> NMTv2.0-asym</pre> | <pre style="text-align:center;">     D99     </pre> | <pre style="text-align:center;">   MEBRAINS  </pre> | <pre style="text-align:center;">     YRK     </pre> |
 |---------------------|-------------|--------------|-----|----------|-----|
 | **NMTv2.0-sym** |  | ![](figures/msm_alignment_diff/distance/lh.NMTv2.0-sym_to_NMTv2.0-asym.png) | ![](figures/msm_alignment_diff/distance/lh.NMTv2.0-sym_to_D99.png) | ![](figures/msm_alignment_diff/distance/lh.NMTv2.0-sym_to_MEBRAINS.png) | ![](figures/msm_alignment_diff/distance/lh.NMTv2.0-sym_to_YRK.png) |
 | **NMTv2.0-asym** | ![](figures/msm_alignment_diff/distance/lh.NMTv2.0-asym_to_NMTv2.0-sym.png) |  | ![](figures/msm_alignment_diff/distance/lh.NMTv2.0-asym_to_D99.png) | ![](figures/msm_alignment_diff/distance/lh.NMTv2.0-asym_to_MEBRAINS.png) | ![](figures/msm_alignment_diff/distance/lh.NMTv2.0-asym_to_YRK.png) |
@@ -33,7 +33,7 @@ To compare the two MSM alignment methods, we visualized vertex-wise 3D distances
 
 ### Right Hemisphere
 
-| Target → \ Moving ↓ | NMTv2.0-sym | NMTv2.0-asym | D99 | MEBRAINS | YRK |
+| Target → \ Moving ↓ | <pre style="text-align:center;"> NMTv2.0-sym </pre> | <pre style="text-align:center;"> NMTv2.0-asym</pre> | <pre style="text-align:center;">     D99     </pre> | <pre style="text-align:center;">   MEBRAINS  </pre> | <pre style="text-align:center;">     YRK     </pre> |
 |---------------------|-------------|--------------|-----|----------|-----|
 | **NMTv2.0-sym** |  | ![](figures/msm_alignment_diff/distance/rh.NMTv2.0-sym_to_NMTv2.0-asym.png) | ![](figures/msm_alignment_diff/distance/rh.NMTv2.0-sym_to_D99.png) | ![](figures/msm_alignment_diff/distance/rh.NMTv2.0-sym_to_MEBRAINS.png) | ![](figures/msm_alignment_diff/distance/rh.NMTv2.0-sym_to_YRK.png) |
 | **NMTv2.0-asym** | ![](figures/msm_alignment_diff/distance/rh.NMTv2.0-asym_to_NMTv2.0-sym.png) |  | ![](figures/msm_alignment_diff/distance/rh.NMTv2.0-asym_to_D99.png) | ![](figures/msm_alignment_diff/distance/rh.NMTv2.0-asym_to_MEBRAINS.png) | ![](figures/msm_alignment_diff/distance/rh.NMTv2.0-asym_to_YRK.png) |
@@ -52,7 +52,7 @@ To compare the two MSM alignment methods, we visualized vertex-wise surface area
 
 ### Left Hemisphere
 
-| Target → \ Moving ↓ | NMTv2.0-sym | NMTv2.0-asym | D99 | MEBRAINS | YRK |
+| Target → \ Moving ↓ | <pre style="text-align:center;"> NMTv2.0-sym </pre> | <pre style="text-align:center;"> NMTv2.0-asym</pre> | <pre style="text-align:center;">     D99     </pre> | <pre style="text-align:center;">   MEBRAINS  </pre> | <pre style="text-align:center;">     YRK     </pre> |
 |---------------------|-------------|--------------|-----|----------|-----|
 | **NMTv2.0-sym** |  | ![](figures/msm_alignment_diff/distortion/lh.NMTv2.0-sym_to_NMTv2.0-asym.png) | ![](figures/msm_alignment_diff/distortion/lh.NMTv2.0-sym_to_D99.png) | ![](figures/msm_alignment_diff/distortion/lh.NMTv2.0-sym_to_MEBRAINS.png) | ![](figures/msm_alignment_diff/distortion/lh.NMTv2.0-sym_to_YRK.png) |
 | **NMTv2.0-asym** | ![](figures/msm_alignment_diff/distortion/lh.NMTv2.0-asym_to_NMTv2.0-sym.png) |  | ![](figures/msm_alignment_diff/distortion/lh.NMTv2.0-asym_to_D99.png) | ![](figures/msm_alignment_diff/distortion/lh.NMTv2.0-asym_to_MEBRAINS.png) | ![](figures/msm_alignment_diff/distortion/lh.NMTv2.0-asym_to_YRK.png) |
@@ -62,7 +62,7 @@ To compare the two MSM alignment methods, we visualized vertex-wise surface area
 
 ### Right Hemisphere
 
-| Target → \ Moving ↓ | NMTv2.0-sym | NMTv2.0-asym | D99 | MEBRAINS | YRK |
+| Target → \ Moving ↓ | <pre style="text-align:center;"> NMTv2.0-sym </pre> | <pre style="text-align:center;"> NMTv2.0-asym</pre> | <pre style="text-align:center;">     D99     </pre> | <pre style="text-align:center;">   MEBRAINS  </pre> | <pre style="text-align:center;">     YRK     </pre> |
 |---------------------|-------------|--------------|-----|----------|-----|
 | **NMTv2.0-sym** |  | ![](figures/msm_alignment_diff/distortion/rh.NMTv2.0-sym_to_NMTv2.0-asym.png) | ![](figures/msm_alignment_diff/distortion/rh.NMTv2.0-sym_to_D99.png) | ![](figures/msm_alignment_diff/distortion/rh.NMTv2.0-sym_to_MEBRAINS.png) | ![](figures/msm_alignment_diff/distortion/rh.NMTv2.0-sym_to_YRK.png) |
 | **NMTv2.0-asym** | ![](figures/msm_alignment_diff/distortion/rh.NMTv2.0-asym_to_NMTv2.0-sym.png) |  | ![](figures/msm_alignment_diff/distortion/rh.NMTv2.0-asym_to_D99.png) | ![](figures/msm_alignment_diff/distortion/rh.NMTv2.0-asym_to_MEBRAINS.png) | ![](figures/msm_alignment_diff/distortion/rh.NMTv2.0-asym_to_YRK.png) |

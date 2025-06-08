@@ -58,7 +58,7 @@ To compare the two alignment methods, we visualized vertex-wise 3D distances bet
 
 ### Left Hemisphere
 
-| Target → \ Moving ↓ | NMTv2.0-sym | NMTv2.0-asym | D99 | MEBRAINS | YRK |
+| Target → \ Moving ↓ | <pre style="text-align:center;"> NMTv2.0-sym </pre> | <pre style="text-align:center;"> NMTv2.0-asym</pre> | <pre style="text-align:center;">     D99     </pre> | <pre style="text-align:center;">   MEBRAINS  </pre> | <pre style="text-align:center;">     YRK     </pre> |
 |---------------------|-------------|--------------|-----|----------|-----|
 | **NMTv2.0-sym** |  | ![](figures/msm_rand_feat/distance/lh.NMTv2.0-sym_to_NMTv2.0-asym.png) | ![](figures/msm_rand_feat/distance/lh.NMTv2.0-sym_to_D99.png) | ![](figures/msm_rand_feat/distance/lh.NMTv2.0-sym_to_MEBRAINS.png) | ![](figures/msm_rand_feat/distance/lh.NMTv2.0-sym_to_YRK.png) |
 | **NMTv2.0-asym** | ![](figures/msm_rand_feat/distance/lh.NMTv2.0-asym_to_NMTv2.0-sym.png) |  | ![](figures/msm_rand_feat/distance/lh.NMTv2.0-asym_to_D99.png) | ![](figures/msm_rand_feat/distance/lh.NMTv2.0-asym_to_MEBRAINS.png) | ![](figures/msm_rand_feat/distance/lh.NMTv2.0-asym_to_YRK.png) |
@@ -68,7 +68,7 @@ To compare the two alignment methods, we visualized vertex-wise 3D distances bet
 
 ### Right Hemisphere
 
-| Target → \ Moving ↓ | NMTv2.0-sym | NMTv2.0-asym | D99 | MEBRAINS | YRK |
+| Target → \ Moving ↓ | <pre style="text-align:center;"> NMTv2.0-sym </pre> | <pre style="text-align:center;"> NMTv2.0-asym</pre> | <pre style="text-align:center;">     D99     </pre> | <pre style="text-align:center;">   MEBRAINS  </pre> | <pre style="text-align:center;">     YRK     </pre> |
 |---------------------|-------------|--------------|-----|----------|-----|
 | **NMTv2.0-sym** |  | ![](figures/msm_rand_feat/distance/rh.NMTv2.0-sym_to_NMTv2.0-asym.png) | ![](figures/msm_rand_feat/distance/rh.NMTv2.0-sym_to_D99.png) | ![](figures/msm_rand_feat/distance/rh.NMTv2.0-sym_to_MEBRAINS.png) | ![](figures/msm_rand_feat/distance/rh.NMTv2.0-sym_to_YRK.png) |
 | **NMTv2.0-asym** | ![](figures/msm_rand_feat/distance/rh.NMTv2.0-asym_to_NMTv2.0-sym.png) |  | ![](figures/msm_rand_feat/distance/rh.NMTv2.0-asym_to_D99.png) | ![](figures/msm_rand_feat/distance/rh.NMTv2.0-asym_to_MEBRAINS.png) | ![](figures/msm_rand_feat/distance/rh.NMTv2.0-asym_to_YRK.png) |
@@ -107,7 +107,7 @@ These overlays help reveal how well the warped surface conforms to the native su
 
 #### Left Hemisphere
 
-| Warped (overlay) → / Native (opaque) ↓ | NMTv2.0-sym | NMTv2.0-asym | D99 | MEBRAINS | YRK |
+| Warped (overlay) → / Native (opaque) ↓ | <pre style="text-align:center;"> NMTv2.0-sym </pre> | <pre style="text-align:center;"> NMTv2.0-asym</pre> | <pre style="text-align:center;">     D99     </pre> | <pre style="text-align:center;">   MEBRAINS  </pre> | <pre style="text-align:center;">     YRK     </pre> |
 |----------------------------------------|-------------|--------------|-----|----------|-----|
 | **NMTv2.0-sym**     | ![](figures/RheMAP_warped_surf/overlay/lh.NMTv2.0-sym.self.png) | ![](figures/RheMAP_warped_surf/overlay/lh.NMTv2.0-sym.overlay-NMTv2.0-asym.png) | ![](figures/RheMAP_warped_surf/overlay/lh.NMTv2.0-sym.overlay-D99.png) | ![](figures/RheMAP_warped_surf/overlay/lh.NMTv2.0-sym.overlay-MEBRAINS.png) | ![](figures/RheMAP_warped_surf/overlay/lh.NMTv2.0-sym.overlay-YRK.png) |
 | **NMTv2.0-asym**    | ![](figures/RheMAP_warped_surf/overlay/lh.NMTv2.0-asym.overlay-NMTv2.0-sym.png) | ![](figures/RheMAP_warped_surf/overlay/lh.NMTv2.0-asym.self.png) | ![](figures/RheMAP_warped_surf/overlay/lh.NMTv2.0-asym.overlay-D99.png) | ![](figures/RheMAP_warped_surf/overlay/lh.NMTv2.0-asym.overlay-MEBRAINS.png) | ![](figures/RheMAP_warped_surf/overlay/lh.NMTv2.0-asym.overlay-YRK.png) |
@@ -117,7 +117,7 @@ These overlays help reveal how well the warped surface conforms to the native su
 
 #### Right Hemisphere
 
-| Warped (overlay) → / Native (opaque) ↓ | NMTv2.0-sym | NMTv2.0-asym | D99 | MEBRAINS | YRK |
+| Warped (overlay) → / Native (opaque) ↓ | <pre style="text-align:center;"> NMTv2.0-sym </pre> | <pre style="text-align:center;"> NMTv2.0-asym</pre> | <pre style="text-align:center;">     D99     </pre> | <pre style="text-align:center;">   MEBRAINS  </pre> | <pre style="text-align:center;">     YRK     </pre> |
 |----------------------------------------|-------------|--------------|-----|----------|-----|
 | **NMTv2.0-sym**     | ![](figures/RheMAP_warped_surf/overlay/rh.NMTv2.0-sym.self.png) | ![](figures/RheMAP_warped_surf/overlay/rh.NMTv2.0-sym.overlay-NMTv2.0-asym.png) | ![](figures/RheMAP_warped_surf/overlay/rh.NMTv2.0-sym.overlay-D99.png) | ![](figures/RheMAP_warped_surf/overlay/rh.NMTv2.0-sym.overlay-MEBRAINS.png) | ![](figures/RheMAP_warped_surf/overlay/rh.NMTv2.0-sym.overlay-YRK.png) |
 | **NMTv2.0-asym**    | ![](figures/RheMAP_warped_surf/overlay/rh.NMTv2.0-asym.overlay-NMTv2.0-sym.png) | ![](figures/RheMAP_warped_surf/overlay/rh.NMTv2.0-asym.self.png) | ![](figures/RheMAP_warped_surf/overlay/rh.NMTv2.0-asym.overlay-D99.png) | ![](figures/RheMAP_warped_surf/overlay/rh.NMTv2.0-asym.overlay-MEBRAINS.png) | ![](figures/RheMAP_warped_surf/overlay/rh.NMTv2.0-asym.overlay-YRK.png) |
@@ -137,7 +137,7 @@ We further computed **vertex-wise signed distances** to quantify the spatial dev
 
 #### Left Hemisphere
 
-| Warped (fix) → / Native (moving) ↓ | NMTv2.0-sym | NMTv2.0-asym | D99 | MEBRAINS | YRK |
+| Warped (fix) → / Native (moving) ↓ | <pre style="text-align:center;"> NMTv2.0-sym </pre> | <pre style="text-align:center;"> NMTv2.0-asym</pre> | <pre style="text-align:center;">     D99     </pre> | <pre style="text-align:center;">   MEBRAINS  </pre> | <pre style="text-align:center;">     YRK     </pre> |
 |------------------------------------|-------------|--------------|-----|----------|-----|
 | **NMTv2.0-sym**  |       | ![](figures/RheMAP_warped_surf/distance/lh.NMTv2.0-sym_to_NMTv2.0-asym.png) | ![](figures/RheMAP_warped_surf/distance/lh.NMTv2.0-sym_to_D99.png) | ![](figures/RheMAP_warped_surf/distance/lh.NMTv2.0-sym_to_MEBRAINS.png) | ![](figures/RheMAP_warped_surf/distance/lh.NMTv2.0-sym_to_YRK.png) |
 | **NMTv2.0-asym** | ![](figures/RheMAP_warped_surf/distance/lh.NMTv2.0-asym_to_NMTv2.0-sym.png) |       | ![](figures/RheMAP_warped_surf/distance/lh.NMTv2.0-asym_to_D99.png) | ![](figures/RheMAP_warped_surf/distance/lh.NMTv2.0-asym_to_MEBRAINS.png) | ![](figures/RheMAP_warped_surf/distance/lh.NMTv2.0-asym_to_YRK.png) |
@@ -147,7 +147,7 @@ We further computed **vertex-wise signed distances** to quantify the spatial dev
 
 #### Right Hemisphere
 
-| Warped (fix) → / Native (moving) ↓ | NMTv2.0-sym | NMTv2.0-asym | D99 | MEBRAINS | YRK |
+| Warped (fix) → / Native (moving) ↓ | <pre style="text-align:center;"> NMTv2.0-sym </pre> | <pre style="text-align:center;"> NMTv2.0-asym</pre> | <pre style="text-align:center;">     D99     </pre> | <pre style="text-align:center;">   MEBRAINS  </pre> | <pre style="text-align:center;">     YRK     </pre> |
 |------------------------------------|-------------|--------------|-----|----------|-----|
 | **NMTv2.0-sym**  |       | ![](figures/RheMAP_warped_surf/distance/rh.NMTv2.0-sym_to_NMTv2.0-asym.png) | ![](figures/RheMAP_warped_surf/distance/rh.NMTv2.0-sym_to_D99.png) | ![](figures/RheMAP_warped_surf/distance/rh.NMTv2.0-sym_to_MEBRAINS.png) | ![](figures/RheMAP_warped_surf/distance/rh.NMTv2.0-sym_to_YRK.png) |
 | **NMTv2.0-asym** | ![](figures/RheMAP_warped_surf/distance/rh.NMTv2.0-asym_to_NMTv2.0-sym.png) |       | ![](figures/RheMAP_warped_surf/distance/rh.NMTv2.0-asym_to_D99.png) | ![](figures/RheMAP_warped_surf/distance/rh.NMTv2.0-asym_to_MEBRAINS.png) | ![](figures/RheMAP_warped_surf/distance/rh.NMTv2.0-asym_to_YRK.png) |
