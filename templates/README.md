@@ -15,9 +15,9 @@ The five subfolders — `NMTv2.0-sym`, `NMTv2.0-asym`, `D99`, `MEBRAINS`, and `Y
 | `NMTv2.0-asym`    | Contains asymmetric macaque brain templates from [AFNI’s NMT v2.0 release](https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/nonhuman/macaque_tempatl/template_nmtv2.html). |
 | `D99`             | Contains surface and volume templates from [AFNI’s macaque D99 atlas](https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/nonhuman/macaque_tempatl/atlas_d99v2.html). |
 | `MEBRAINS`        | Contains surface and volume templates from [EBRAINS MEBRAINS v2.0](https://search.kg.ebrains.eu/instances/de58ab47-b980-437c-8906-87f1123e14fb). |
-| `YRK`             | Contains Yerkes19 macaque brain templates from [Washington University’s NHPPipelines repository](https://github.com/Washington-University/NHPPipelines) and [BALSA](https://balsa.wustl.edu/reference/show/976nz). Includes 32k_fs_LR surfaces and F99-to-Yerkes19 registration spheres. |
-| `Markov`          | Includes Markov architectonic parcellation file from [BALSA](https://balsa.wustl.edu/study/W336), used to initialize MSM registration. |
-| `CompositeWarps`  | Includes inter-template volume warp fields from the [RheMAP project (ANTs-based warps)](https://gin.g-node.org/ChrisKlink/RheMAP/src/master/warps/final). Due to large file size, this folder is **not included** in the GitHub repository. |
+| `YRK`             | Contains Yerkes19 macaque brain templates from [Washington University’s NHPPipelines repository](https://github.com/Washington-University/NHPPipelines) and [BALSA](https://balsa.wustl.edu/reference/show/976nz). Includes 32k_fs_LR surfaces and F99-to-Yerkes19 deformation spheres. |
+| `Markov`          | Includes Markov architectonic parcellation file from [BALSA](https://balsa.wustl.edu/study/W336), used to initialize MSM alignment. |
+| `CompositeWarps`  | Includes inter-template volume warp fields from the [RheMAP project (ANTs-derived warps)](https://gin.g-node.org/ChrisKlink/RheMAP/src/master/warps/final). Due to large file size, this folder is **not included** in the GitHub repository. |
 
 ---
 
@@ -89,14 +89,14 @@ The five subfolders — `NMTv2.0-sym`, `NMTv2.0-asym`, `D99`, `MEBRAINS`, and `Y
 **Source:** [BALSA download link](https://balsa.wustl.edu/download/downloadFile/w8Vm)  
 **Included File:**
 - `MarkovCC12_M132_91-area.32k_fs_LR.dlabel.nii`  
-  → Used to initialize MSM registration (initial alignment)
+  → Used to initialize MSM alignment
 
 ---
 
 ### `CompositeWarps` (Not Included)
 **Source:** [RheMAP G-NODE repository](https://gin.g-node.org/ChrisKlink/RheMAP/src/master/warps/final)  
 **Contents:**  
-Contains ANTs-based **volume-to-volume warp fields** from the original RheMAP project.  
+Contains ANTs-derived **volume-to-volume warp fields** from the original RheMAP project.  
 → Includes all **20 pairwise mappings** between the 5 templates (`NMTv2.0-sym`, `NMTv2.0-asym`, `D99`, `MEBRAINS`, and `YRK`).
 
 📌 **Note:** These warp files are too large to upload to GitHub.
