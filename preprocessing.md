@@ -2,7 +2,7 @@
 
 This document outlines the full preprocessing pipeline used to prepare cortical surfaces and surface-based features from five widely-used macaque brain templates for the **RheMAP-Surf** project.
 
-The input to the pipeline includes:
+The input data to the pipeline includes:
 - Surface and volume files from five reference templates (see [`templates/`](./templates/) for details)
 - Inter-template volume warp fields from the [RheMAP project](https://gin.g-node.org/ChrisKlink/RheMAP/src/master/warps/final)
 
@@ -10,7 +10,7 @@ The input to the pipeline includes:
 
 ## Step 1: Collection, Renaming, and Template-Specific Corrections
 
-We first collected the original T1-weighted structural volumes and cortical surface files (left and right hemispheres) for the five reference templates: `NMTv2.0-sym`, `NMTv2.0-asym`, `D99`, `MEBRAINS`, and `YRK` (Yerkes19). All files were organized under the [`templates/`](./templates/) directory.
+We first collected the original T1-weighted structural volumes and cortical surface files (left and right hemispheres) for the five reference templates: `NMTv2.0-sym`, `NMTv2.0-asym`, `D99`, `MEBRAINS` (MEBRAINS v2.0), and `YRK` (Yerkes19). All files were organized under the [`templates/`](./templates/) directory.
 
 To ensure naming consistency across templates, volumes and surfaces were renamed using the following standardized conventions:
 - Volumes: `<template>.nii.gz`
@@ -38,7 +38,7 @@ Where:
 
 ## Step 2: Cross-Template Surface Warping and Reference Volume Generation
 
-In this step, we utilized the ANTs-based volume-to-volume warp fields from the RheMAP project to perform the following operations:
+In this step, we utilized the ANTs-derived volume-to-volume warp fields from the RheMAP project to perform the following operations:
 
 1. **Warpfield conversion**  
 RheMAP-provided ITK-format warpfields were converted into Connectome Workbench-compatible "world" warpfields using `wb_command -convert-warpfield -from-itk <input> -to-world <output>`.
@@ -52,7 +52,7 @@ For each hemisphere and template, we computed the spatial bounding box across al
 4. **Reference volume generation**  
 Using the bounding boxes and a fixed 2-voxel margin, we generated multi-resolution reference volumes via a custom Python script. The generated voxel resolutions include: 0.5, 0.4, 0.3, 0.25, and 0.2 mm.
 
-The warped surfaces and reference volumes produced here are not only used in subsequent steps of the preprocessing pipeline, but also play a critical role in downstream analyses. In particular, they serve as the spatial framework for sampling randomized features in surface alignment tasks that approximate ANTs-based volume warp fields, and for evaluating the geometric correspondence between ANTs-warped surfaces and those aligned via MSM (Multimodal Surface Matching).
+The warped surfaces and reference volumes produced here are not only used in subsequent steps of the preprocessing pipeline, but also play a critical role in downstream analyses. In particular, they serve as the spatial framework for sampling randomized features in surface alignment tasks that approximate ANTs-derived volume warp fields, and for evaluating the geometric correspondence between ANTs-warped surfaces and those aligned via MSM (Multimodal Surface Matching).
 
 ---
 
@@ -100,7 +100,7 @@ The figures below illustrate the mean curvature patterns computed on the native 
 
 ### Sphere Generation
 
-For **NMTv2.0-sym**, **NMTv2.0-asym**, and **MEBRAINS**, spherical surfaces were not provided. Since conformal spheres are required for surface-based registration methods such as MSM (Multimodal Surface Matching), we generated spherical surfaces using the standard FreeSurfer pipeline:
+For **NMTv2.0-sym**, **NMTv2.0-asym**, and **MEBRAINS** (MEBRAINS v2.0), spherical surfaces were not provided. Since conformal spheres are required for surface-based registration methods such as MSM (Multimodal Surface Matching), we generated spherical surfaces using the standard FreeSurfer pipeline:
 
 1. Inflate the white matter surface using `mris_inflate`
 2. Generate a conformal sphere with `mris_sphere`
@@ -129,7 +129,7 @@ Due to inconsistent definitions of the medial wall (MW) across macaque brain tem
    These provisional cortical regions were projected into volume space via `wb_command -metric-to-volume-mapping`, allowing alignment with D99 or YRK cortical volumes via ANTs registration and enabling correction for residual inter-template mismatch.
 
 4. **Volume registration and refined surface warping**:  
-   The projected cortical volumes were aligned to the target D99 or YRK space using ANTs. The resulting warp fields were then used to further warp the original surfaces for fine-grained spatial correspondence.
+   The projected cortical volumes were aligned to the target D99 or YRK space using ANTs. The resulting warp fields were then used to further warp the original warped surfaces for fine-grained spatial correspondence.
 
 5. **Refined re-extraction**:  
    The newly warped surfaces were re-compared to the MW-excluded base using a stricter signed distance threshold, yielding refined definitions of cortical (non-MW) vertices.
@@ -155,6 +155,6 @@ To evaluate the consistency of the harmonized MW masks across the five templates
 | MEBRAINS       | ![](figures/surf_mwmask_maps/lh.MEBRAINS.MWmask.png)     | ![](figures/surf_mwmask_maps/rh.MEBRAINS.MWmask.png)     |
 | YRK            | ![](figures/surf_mwmask_maps/lh.YRK.MWmask.png)          | ![](figures/surf_mwmask_maps/rh.YRK.MWmask.png)          |
 
-These harmonized MW masks are used in downstream workflows as weighting masks for MSM-based surface alignment, where MW regions are assigned a weight of 0 and cortical regions a weight of 1. This ensures that variability in MW definitions does not bias the alignment process. They are also used to exclude MW regions from evaluation metrics when assessing surface alignment quality across templates.
+These harmonized MW masks are used in downstream workflows as weighting masks for MSM-based surface alignment, where MW regions are assigned a weight of 0 and cortical regions a weight of 1. This ensures that variability in MW definitions does not bias the alignment process. They are also used to exclude MW regions from evaluation metrics when assessing surface alignment quality across templates. For users interested in applying these MW masks in their own workflows, the files are available at [`surfaces/medialWallConsensus/`](./surfaces/medialWallConsensus/).
 
 ---

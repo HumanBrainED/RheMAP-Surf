@@ -16,7 +16,7 @@ This labeled volume was then projected onto the surfaces of other templates usin
 
 ## Outputs and Visual Results
 
-MSM alignment results for each inter-template pair — specifically the deformation spheres used for inter-template transformations — are stored under [`standard_alignment/`](./deformation_spheres/standard_alignment/). For usage instructions, refer to the [`demo/`](./demo/) directory.
+MSM alignment results for each inter-template pair — specifically the deformation spheres used for inter-template transformations — are stored under [`deformation_spheres/standard_alignment/`](./deformation_spheres/standard_alignment/). For usage instructions, refer to the [`demo/`](./demo/) directory.
 
 To assess the alignment quality, we visualized how well mean curvature patterns were matched between templates by projecting curvature maps from the moving to the target (fix) space and displaying them on both spherical and white matter surfaces.
 

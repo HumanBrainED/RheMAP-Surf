@@ -2,7 +2,7 @@
 
 This document presents an alternative approach to inter-template surface alignment using **randomly generated feature maps** as the driving metric for MSM (Multimodal Surface Matching). Unlike conventional methods based on mean curvature or sulcal depth, this approach **projects structured random patterns** from volume space onto the native and RheMAP-aligned surfaces and uses them as robust, volumetrically-informed features to guide surface alignment.
 
-This method is explicitly designed to approximate the inter-template volume registrations provided by the **RheMAP** project, thereby bridging the gap between volume- and surface-based alignment.
+This method is explicitly designed to approximate the inter-template volume registrations provided by the [**RheMAP**](https://github.com/PRIME-RE/RheMAP) project, thereby bridging the gap between volume- and surface-based alignment.
 
 ---
 
@@ -36,7 +36,7 @@ We used `wb_command -surface-to-surface-3d-distance` to compute Euclidean distan
 
 ## Outputs and Visual Results
 
-MSM alignment results for each inter-template pair — specifically the deformation spheres used for inter-template transformations — are stored under [`approx_volume_alignment/`](./deformation_spheres/approx_volume_alignment/). For usage instructions, refer to the [`demo/`](./demo/) directory.
+MSM alignment results for each inter-template pair — specifically the deformation spheres used for inter-template transformations — are stored under [`deformation_spheres/approx_volume_alignment/`](./deformation_spheres/approx_volume_alignment/). For usage instructions, refer to the [`demo/`](./demo/) directory.
 
 To visualize alignment quality, we rendered the vertex-wise distance maps on white matter surfaces, excluding MW regions (values set to `NaN`). All maps are displayed using a **fixed color scale (0–6 mm)** to allow direct comparison across templates and hemispheres.
 

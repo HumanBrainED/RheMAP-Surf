@@ -2,7 +2,7 @@
 
 As explained in [`demo/`](./demo/), the **RheMAP-Surf** project provides two alternative sets of MSM-derived deformation spheres available under [`deformation_spheres/`](./deformation_spheres/). These represent:
 - [**MSM-curv**](./deformation_spheres/standard_alignment/): conventional surface alignment driven by mean curvature
-- [**MSM-aprx**](./deformation_spheres/approx_volume_alignment/): alignment driven by RheMAP-projected random features, approximating ANTs-derived volume registrations from the RheMAP project
+- [**MSM-aprx**](./deformation_spheres/approx_volume_alignment/): alignment driven by RheMAP-projected random features, approximating ANTs-derived volume registrations from the [RheMAP](https://github.com/PRIME-RE/RheMAP) project
 
 While initial assessments of **MSM-curv** and **MSM-aprx** have been presented in separate documents ([`msm_alignment_with_mean_curvature.md`](msm_alignment_with_mean_curvature.md) and [`msm_alignment_with_projected_features.md`](msm_alignment_with_projected_features.md), respectively), here we directly compare these two alignment strategies and quantify their differences. This analysis aims to inform users about potential variability between the two strategies when choosing deformation spheres for downstream analyses.
 
@@ -10,7 +10,7 @@ Following the approach used in [`msm_alignment_with_projected_features.md`](msm_
 
 To capture surface distortion, we further calculated log2 area ratios (i.e., ln(aprx/curv)/ln(2)) at each vertex via `wb_command -surface-distortion`. The resulting surface area distortion maps illustrate regional differences in local surface expansion or compression between the two alignment methods.
 
-For both the distance and surface area distortion maps, we computed summary statistics (**median**, **mean**, **maximum**) across non-MW regions and visualized them as heatmaps by hemisphere. Finally, we computed the **cosine similarity** between the mean curvature maps resampled using each surface alignment method and the native curvature maps in the target (fix) space. The results show that, although the two alignment strategies exhibit clear differences in terms of vertex-wise distance and surface area distortion, their impact on mean curvature resampling is relatively minor. **MSM-curv** achieved higher cosine similarity across more inter-template pairs, indicating a modest advantage in preserving curvature features. On the other hand, **MSM-aprx** offers a surface alignment choice that better reflects the ANTs-derived volume registrations from the RheMAP project.
+For both the distance and surface area distortion maps, we computed summary statistics (**median**, **mean**, **maximum**) across non-MW regions (i.e., excluding the medial wall) and visualized them as heatmaps by hemisphere. Finally, we computed the **cosine similarity** between the mean curvature maps resampled using each surface alignment method and the native curvature maps in the target (fix) space. The results show that, although the two alignment strategies exhibit clear differences in terms of vertex-wise distance and surface area distortion, their impact on mean curvature resampling is relatively minor. **MSM-curv** achieved higher cosine similarity across more inter-template pairs, indicating a modest advantage in preserving curvature features. On the other hand, **MSM-aprx** offers a surface alignment choice that better reflects the ANTs-derived volume registrations from the RheMAP project.
 
 ---
 
